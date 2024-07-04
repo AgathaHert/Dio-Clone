@@ -32,7 +32,7 @@ const schema = yup
   })
   .required();
 
-const Login = () => {
+const Cadastro = () => {
   const navigate = useNavigate();
 
   const {
@@ -122,4 +122,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Cadastro;

@@ -3,7 +3,7 @@ import UserInfo from "../../components/UserInfo";
 import Header from "../../components/header";
 import { Column, Container, Title, TitleHighlight } from "./styles";
 
-const Home = () => {
+const Feed = () => {
   return (
     <>
       <Header autenticado={true} />
@@ -52,4 +52,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Feed;
