@@ -6,7 +6,6 @@ interface RouteDefinition {
   element: ReactElement;
 }
 
-// Exemplo de configuração básica de router
-declare const router: Routes; // Adjust this to match your router configuration
+declare const router: Routes;
 
 export default router as BrowserRouter<RouteDefinition>;
